@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/dkuffner/git/weakpixel/go-getter'
+docker-compose build
+docker-compose up -d samba
+make: Leaving directory `/Users/dkuffner/git/weakpixel/go-getter'
+ 

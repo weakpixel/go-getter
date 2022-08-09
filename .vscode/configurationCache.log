@@ -1,0 +1,1 @@
+{"buildTargets":["smbtests","smbtests-prepare","start-smb"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
