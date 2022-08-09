@@ -30,13 +30,13 @@ Package documentation can be found on
 Installation can be done with a normal `go get`:
 
 ```
-$ go get github.com/hashicorp/go-getter
+$ go get github.com/weakpixel/go-getter
 ```
 
 go-getter also has a command you can use to test URL strings:
 
 ```
-$ go install github.com/hashicorp/go-getter/cmd/go-getter
+$ go install github.com/weakpixel/go-getter/cmd/go-getter
 ...
 
 $ go-getter github.com/foo/bar ./foo
@@ -122,7 +122,7 @@ The options are specified as query parameters on the URL (or URL-like string)
 given to go-getter. Using the Git example above, the URL below is a valid
 input to go-getter:
 
-    github.com/hashicorp/go-getter?ref=abcd1234
+    github.com/weakpixel/go-getter?ref=abcd1234
 
 The protocol-specific options are documented below the URL format
 section. But because they are part of the URL, we point it out here so

@@ -8,7 +8,7 @@ import (
 	"os/signal"
 	"sync"
 
-	getter "github.com/hashicorp/go-getter"
+	getter "github.com/weakpixel/go-getter"
 )
 
 func main() {
